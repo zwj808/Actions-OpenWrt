@@ -119,5 +119,5 @@ jobs:
       uses: actions/upload-artifact@master
       if: steps.organize.outputs.status == 'success' && !cancelled()
       with:
-        name: OpenWrt_firmware
+        name: Openwrt_orange_pi_zero_plus
         path: ${{ env.FIRMWARE }}
