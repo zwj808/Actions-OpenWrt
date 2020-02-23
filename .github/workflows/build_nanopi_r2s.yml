@@ -157,5 +157,5 @@ jobs:
       - name: Upload Artifact
         uses: actions/upload-artifact@master
         with:
-          name: FriendlyWrt_NanoPi-R2S RK3328
+          name: FriendlyWrt_nanopi_r2s
           path: ./artifact/
